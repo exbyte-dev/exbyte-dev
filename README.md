@@ -25,5 +25,5 @@ Most of my production work is private client code, but here is the shape of it.
  
 The pinned repos are the things I can show in full. **ecoflowbot** is a favourite: it watches my EcoFlow power station over MQTT and pings me the moment grid power drops, which matters more than it sounds when you are running servers from Nigeria.
 
- 
+> Want to build something? abubakar@exbyte.dev
 
