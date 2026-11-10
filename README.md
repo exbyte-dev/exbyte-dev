@@ -24,9 +24,13 @@ Most of my client code is private, so this is the work you can open and judge fo
 
 ### [TwelveAM](https://twelveam.xyz): a music player in your browser
 
-<a href="https://twelveam.xyz"><img src="assets/twelveam.png" width="720" alt="TwelveAM playing a song, with cover art, a frequency spectrum, playback controls, the waveform and synced lyrics"></a>
-
 Drop in a song and it plays with a live waveform, a frequency spectrum, synced lyrics and colors pulled from the cover art. The audio is decoded on your device and stays there unless you choose to share it, in which case you get an unguessable link that expires on its own.
+
+<details>
+<summary>Show a screenshot</summary>
+<br>
+<a href="https://twelveam.xyz"><img src="assets/twelveam.png" width="720" alt="TwelveAM playing a song, with cover art, a frequency spectrum, playback controls, the waveform and synced lyrics"></a>
+</details>
 
 No account and nothing to install. It plays MP3, M4A, FLAC, OGG and WAV, and there is a demo track if you have no file handy.
 
@@ -34,9 +38,13 @@ Built with vanilla JS, Web Audio and Vite, with FastAPI, SQLite and nginx behind
 
 ### [zltrouter](https://github.com/exbyte-dev/zltrouter): a CLI and dashboard for a router with no API
 
-<a href="https://github.com/exbyte-dev/zltrouter"><img src="assets/zltrouter.png" width="720" alt="The zlt dashboard showing a signal reading of -87 dBm rated good, tabs for Signal, Messages, USSD and Speed, and network mode buttons"></a>
-
 The MTN ZLT T10D MAX 4G router has a slow web UI and no documented API. I read the JavaScript it serves, worked out its login and request protocol, and built a CLI and a local dashboard on top: live signal, network mode switching, SMS, USSD and a speed test.
+
+<details>
+<summary>Show a screenshot</summary>
+<br>
+<a href="https://github.com/exbyte-dev/zltrouter"><img src="assets/zltrouter.png" width="720" alt="The zlt dashboard showing a signal reading of -87 dBm rated good, tabs for Signal, Messages, USSD and Speed, and network mode buttons"></a>
+</details>
 
 Installs with pipx on Linux, macOS and Windows:
 
