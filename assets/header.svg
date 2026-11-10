@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="272" viewBox="0 0 640 272" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal session introducing Abubakar Ismail</title>
+  <desc id="desc">whoami prints: python backend engineer, Abuja, Nigeria. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact.</desc>
+
+  <!--
+    Every animated element is visible in its resting state and only hidden by
+    the animation itself, so a renderer that skips CSS animation (or a viewer
+    who prefers reduced motion) sees the finished session, not a blank window.
+    textLength pins each run to a 9px cell so typing lines up in any monospace font.
+  -->
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 15px; }
+    .bar { font-size: 12px; fill: #8f8672; }
+    .prompt, .own { fill: #C9932F; }
+    .cmd, .ink { fill: #EDE7DC; }
+    .out { fill: #b5ac99; }
+
+    @keyframes show  { from { opacity: 0; } }
+    @keyframes hold  { from, to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes type1 { from { transform: translate(0px, 0px); } to { transform: translate(54px, 0px); } }
+    @keyframes type2 { from { transform: translate(0px, 0px); } to { transform: translate(99px, 0px); } }
+    @keyframes type3 { from { transform: translate(0px, 0px); } to { transform: translate(90px, 0px); } }
+
+    .k1 { animation: hold 1.2s linear 0s; }
+    .c1 { animation: type1 .5s steps(6) .7s backwards; }
+    .o1 { animation: show .3s ease-out 1.35s backwards; }
+
+    .p2 { animation: show .01s linear 1.9s backwards; }
+    .k2 { animation: hold 1.3s linear 1.9s; }
+    .c2 { animation: type2 .9s steps(11) 2.3s backwards; }
+    .o2 { animation: show .3s ease-out 3.35s backwards; }
+
+    .p3 { animation: show .01s linear 3.9s backwards; }
+    .k3 { animation: hold 1.2s linear 3.9s; }
+    .c3 { animation: type3 .8s steps(10) 4.3s backwards; }
+    .o3 { animation: show .3s ease-out 5.25s backwards; }
+
+    .p4 { animation: show .01s linear 5.8s backwards; }
+    .k4 { animation: show .01s linear 5.8s backwards, blink 1.1s step-end 5.8s infinite; }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- window -->
+  <rect x=".5" y=".5" width="639" height="271" rx="12" fill="#16130F" stroke="#2c2820"/>
+  <path d="M1 38.5H639" stroke="#2c2820"/>
+  <circle cx="22" cy="19.5" r="5" fill="#3b352a"/>
+  <circle cx="40" cy="19.5" r="5" fill="#3b352a"/>
+  <circle cx="58" cy="19.5" r="5" fill="#3b352a"/>
+  <text class="bar" x="320" y="23.5" text-anchor="middle">abubakar@exbyte:~</text>
+  <!-- byte-grid mark: seven filled bits, one open -->
+  <g fill="#C9932F">
+    <rect x="588" y="12" width="6" height="6"/>
+    <rect x="596" y="12" width="6" height="6"/>
+    <rect x="604" y="12" width="6" height="6"/>
+    <rect x="612" y="12" width="6" height="6"/>
+    <rect x="588" y="20" width="6" height="6"/>
+    <rect x="596" y="20" width="6" height="6"/>
+    <rect x="604.75" y="20.75" width="4.5" height="4.5" fill="none" stroke="#C9932F" stroke-width="1.5"/>
+    <rect x="612" y="20" width="6" height="6"/>
+  </g>
+
+  <!-- $ whoami -->
+  <text class="prompt" x="28" y="72">$</text>
+  <text class="cmd" x="46" y="72" textLength="54" lengthAdjust="spacing">whoami</text>
+  <g class="c1" transform="translate(54 0)">
+    <rect x="45" y="56" width="70" height="24" fill="#16130F"/>
+    <rect class="k1" x="46" y="59" width="8" height="17" fill="#C9932F" opacity="0"/>
+  </g>
+  <text class="out o1" x="28" y="96" textLength="360" lengthAdjust="spacing">python backend engineer · abuja, nigeria</text>
+
+  <!-- $ ls shipped/ -->
+  <text class="prompt p2" x="28" y="130">$</text>
+  <text class="cmd" x="46" y="130" textLength="99" lengthAdjust="spacing">ls shipped/</text>
+  <g class="c2" transform="translate(99 0)">
+    <rect x="45" y="114" width="115" height="24" fill="#16130F"/>
+    <rect class="k2" x="46" y="117" width="8" height="17" fill="#C9932F" opacity="0"/>
+  </g>
+  <g class="o2">
+    <text class="own" x="28" y="154" textLength="72" lengthAdjust="spacing">twelveam</text>
+    <text class="own" x="118" y="154" textLength="81" lengthAdjust="spacing">zltrouter</text>
+    <text class="out" x="217" y="154" textLength="54" lengthAdjust="spacing">candor</text>
+    <text class="out" x="289" y="154" textLength="72" lengthAdjust="spacing">kryptium</text>
+    <text class="out" x="379" y="154" textLength="72" lengthAdjust="spacing">shipflow</text>
+  </g>
+
+  <!-- $ cat status -->
+  <text class="prompt p3" x="28" y="188">$</text>
+  <text class="cmd" x="46" y="188" textLength="90" lengthAdjust="spacing">cat status</text>
+  <g class="c3" transform="translate(90 0)">
+    <rect x="45" y="172" width="106" height="24" fill="#16130F"/>
+    <rect class="k3" x="46" y="175" width="8" height="17" fill="#C9932F" opacity="0"/>
+  </g>
+  <g class="o3">
+    <circle cx="32.5" cy="207" r="3.5" fill="#C9932F"/>
+    <text class="ink" x="46" y="212" textLength="153" lengthAdjust="spacing">open for projects</text>
+    <path d="M208.5 207h8m-3.5 -3.5l3.5 3.5l-3.5 3.5" fill="none" stroke="#8f8672" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="own" x="226" y="212" textLength="162" lengthAdjust="spacing">exbyte.dev/contact</text>
+  </g>
+
+  <!-- waiting prompt -->
+  <text class="prompt p4" x="28" y="246">$</text>
+  <rect class="k4" x="46" y="233" width="8" height="17" fill="#C9932F"/>
+</svg>

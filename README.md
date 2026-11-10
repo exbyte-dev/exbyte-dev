@@ -1,4 +1,16 @@
-# Abubakar Ismail
+<!-- markdownlint-disable MD033 MD041 -->
+<h1 align="center">Abubakar Ismail</h1>
+
+<p align="center">
+  <a href="https://exbyte.dev"><img src="assets/header.svg" width="640" alt="A terminal session. whoami prints: Python backend engineer, Abuja, Nigeria. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact."></a>
+</p>
+
+<p align="center">
+  <a href="https://exbyte.dev"><img src="assets/link-website.svg" height="32" alt="Website"></a>
+  <a href="https://www.upwork.com/freelancers/exbyte"><img src="assets/link-upwork.svg" height="32" alt="Upwork"></a>
+  <a href="https://www.linkedin.com/in/exbyte"><img src="assets/link-linkedin.svg" height="32" alt="LinkedIn"></a>
+  <a href="mailto:abubakar@exbyte.dev"><img src="assets/link-email.svg" height="32" alt="Email"></a>
+</p>
 
 Python backend engineer in Abuja, Nigeria. I build the backends, integrations and automation that businesses run their operations on. Discord and Telegram bots too, when a project calls for one.
 
@@ -12,6 +24,8 @@ Most of my client code is private, so this is the work you can open and judge fo
 
 ### [TwelveAM](https://twelveam.xyz): a music player in your browser
 
+<a href="https://twelveam.xyz"><img src="assets/twelveam.png" width="720" alt="TwelveAM playing a song, with cover art, a frequency spectrum, playback controls, the waveform and synced lyrics"></a>
+
 Drop in a song and it plays with a live waveform, a frequency spectrum, synced lyrics and colors pulled from the cover art. The audio is decoded on your device and stays there unless you choose to share it, in which case you get an unguessable link that expires on its own.
 
 No account and nothing to install. It plays MP3, M4A, FLAC, OGG and WAV, and there is a demo track if you have no file handy.
@@ -19,6 +33,8 @@ No account and nothing to install. It plays MP3, M4A, FLAC, OGG and WAV, and the
 Built with vanilla JS, Web Audio and Vite, with FastAPI, SQLite and nginx behind the share links. [How it's built](https://exbyte.dev/projects/spotify-telegram-bot-twelveam)
 
 ### [zltrouter](https://github.com/exbyte-dev/zltrouter): a CLI and dashboard for a router with no API
+
+<a href="https://github.com/exbyte-dev/zltrouter"><img src="assets/zltrouter.png" width="720" alt="The zlt dashboard showing a signal reading of -87 dBm rated good, tabs for Signal, Messages, USSD and Speed, and network mode buttons"></a>
 
 The MTN ZLT T10D MAX 4G router has a slow web UI and no documented API. I read the JavaScript it serves, worked out its login and request protocol, and built a CLI and a local dashboard on top: live signal, network mode switching, SMS, USSD and a speed test.
 
@@ -52,6 +68,8 @@ Production systems built for clients. The code is private, so the links go to ca
 More on the [projects page](https://exbyte.dev/projects).
 
 ## What I work with
+
+<img src="assets/stack.svg" height="40" alt="Python, FastAPI, Django, PostgreSQL, MongoDB, Redis, Docker, Nginx, Linux and Cloudflare">
 
 - **Backend:** Python, FastAPI, Django, async systems, REST APIs, webhooks, pytest
 - **Data:** PostgreSQL, MongoDB, Redis

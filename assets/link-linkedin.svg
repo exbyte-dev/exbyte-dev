@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="32" viewBox="0 0 95 32" role="img" aria-label="linkedin">
+  <title>linkedin</title>
+  <rect x=".5" y=".5" width="94" height="31" rx="8" fill="#16130F" stroke="#2c2820"/>
+  <g font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace' font-size="13">
+    <text x="12" y="20.5" fill="#C9932F">/</text>
+    <text x="19.8" y="20.5" fill="#EDE7DC" textLength="62.4" lengthAdjust="spacing">linkedin</text>
+  </g>
+</svg>
