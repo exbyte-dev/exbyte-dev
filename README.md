@@ -1,6 +1,6 @@
 # Abubakar Ismail
 
-Python backend engineer in Abuja, Nigeria. I build the backends, integrations and automation that businesses run their operations on, and the Discord and Telegram bots around them.
+Python backend engineer in Abuja, Nigeria. I build the backends, integrations and automation that businesses run their operations on. Discord and Telegram bots too, when a project calls for one.
 
 Independent since 2020, with clients worldwide. [Top Rated on Upwork](https://www.upwork.com/freelancers/exbyte) with a 5.0 rating. Founder of [Exbyte Digital Solutions](https://exbyte.dev).
 
@@ -37,7 +37,7 @@ This one is for people who own that router, which is a small club. If you are no
 ### Smaller tools
 
 - **[zshup](https://github.com/exbyte-dev/zshup)** sets up zsh in one command: Oh My Zsh, autosuggestions, syntax highlighting and fzf keybindings, with a managed `.zshrc`. Works on Arch, Debian, Ubuntu, Fedora, Termux and macOS.
-- **[ecoflowbot](https://github.com/exbyte-dev/ecoflowbot)** is a Discord bot that watches an EcoFlow power station over MQTT and tells you the moment grid power drops or comes back. Particularly useful when you run servers in Nigeria.
+- **[ecoflowbot](https://github.com/exbyte-dev/ecoflowbot)** is a Discord bot for EcoFlow power stations. It watches the station over MQTT, tells you the moment grid power drops or comes back, and lets you check the battery or switch outputs with slash commands. Particularly useful when you run servers in Nigeria.
 
 ## Client work
 
