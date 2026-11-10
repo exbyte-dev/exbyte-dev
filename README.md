@@ -2,19 +2,19 @@
 <h1 align="center">Abubakar Ismail</h1>
 
 <p align="center">
-  <a href="https://exbyte.dev"><img src="assets/header.svg" width="640" alt="A terminal session. whoami prints: Python backend engineer, Abuja, Nigeria. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact."></a>
+  <a href="https://exbyte.dev"><img src="assets/header.svg" width="640" alt="A terminal session. whoami prints: Python backend engineer, building since 2018. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact."></a>
 </p>
 
 <p align="center">
+  <a href="https://exbyte.dev/contact"><img src="assets/link-contact.svg" height="32" alt="Contact"></a>
   <a href="https://exbyte.dev"><img src="assets/link-website.svg" height="32" alt="Website"></a>
-  <a href="https://www.upwork.com/freelancers/exbyte"><img src="assets/link-upwork.svg" height="32" alt="Upwork"></a>
   <a href="https://www.linkedin.com/in/exbyte"><img src="assets/link-linkedin.svg" height="32" alt="LinkedIn"></a>
   <a href="mailto:abubakar@exbyte.dev"><img src="assets/link-email.svg" height="32" alt="Email"></a>
 </p>
 
-Python backend engineer in Abuja, Nigeria. I build the backends, integrations and automation that businesses run their operations on. Discord and Telegram bots too, when a project calls for one.
+Python backend engineer. I build the backends, integrations and automation that businesses run their operations on. Discord and Telegram bots too, when a project calls for one.
 
-Independent since 2020, with clients worldwide. [Top Rated on Upwork](https://www.upwork.com/freelancers/exbyte) with a 5.0 rating. Founder of [Exbyte Digital Solutions](https://exbyte.dev).
+Independent since 2020, with clients worldwide and a 5.0 Top Rated record on Upwork. Founder of [Exbyte Digital Solutions](https://exbyte.dev).
 
 **Currently taking projects.** [Start one here](https://exbyte.dev/contact) or email [abubakar@exbyte.dev](mailto:abubakar@exbyte.dev).
 
@@ -48,12 +48,13 @@ This one is for people who own that router, which is a small club. If you are no
 
 - [Router Signal](https://github.com/exbyte-dev/zlt-android), an Android app with a Quick Settings tile and a demo mode that needs no router
 - [zlt-gnome](https://github.com/exbyte-dev/zlt-gnome), a signal indicator for the GNOME top bar
-- [glorouter](https://github.com/exbyte-dev/glorouter), the same idea for the Huawei B311-221 on Glo
+- [glorouter](https://github.com/exbyte-dev/glorouter), the same idea for the Huawei B311-221
 
-### Smaller tools
+### Smaller tools and bots
 
 - **[zshup](https://github.com/exbyte-dev/zshup)** sets up zsh in one command: Oh My Zsh, autosuggestions, syntax highlighting and fzf keybindings, with a managed `.zshrc`. Works on Arch, Debian, Ubuntu, Fedora, Termux and macOS.
-- **[ecoflowbot](https://github.com/exbyte-dev/ecoflowbot)** is a Discord bot for EcoFlow power stations. It watches the station over MQTT, tells you the moment grid power drops or comes back, and lets you check the battery or switch outputs with slash commands. Particularly useful when you run servers in Nigeria.
+- **[Quest](https://t.me/qstttbot)** is a Telegram bot for group games: country battles, trivia rallies, a daily Wordle and leaderboards to climb. Add it to a group chat to play. The bot is live; its code is private.
+- **[ecoflowbot](https://github.com/exbyte-dev/ecoflowbot)** is a Discord bot for EcoFlow power stations. It watches the station over MQTT, tells you the moment grid power drops or comes back, and lets you check the battery or switch outputs with slash commands. Particularly useful when your servers run on unreliable grid power.
 
 ## Client work
 
@@ -84,6 +85,5 @@ I've been building software since 2018. I like backend systems, undocumented API
 ## Find me
 
 - **Website:** [exbyte.dev](https://exbyte.dev)
-- **Upwork:** [upwork.com/freelancers/exbyte](https://www.upwork.com/freelancers/exbyte)
 - **LinkedIn:** [linkedin.com/in/exbyte](https://www.linkedin.com/in/exbyte)
 - **Email:** [abubakar@exbyte.dev](mailto:abubakar@exbyte.dev)

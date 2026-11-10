@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="272" viewBox="0 0 640 272" role="img" aria-labelledby="title desc">
   <title id="title">Terminal session introducing Abubakar Ismail</title>
-  <desc id="desc">whoami prints: python backend engineer, Abuja, Nigeria. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact.</desc>
+  <desc id="desc">whoami prints: python backend engineer, building since 2018. ls shipped prints: twelveam, zltrouter, candor, kryptium, shipflow. cat status prints: open for projects, exbyte.dev/contact.</desc>
 
   <!--
     Every animated element is visible in its resting state and only hidden by
@@ -68,7 +68,7 @@
     <rect x="45" y="56" width="70" height="24" fill="#16130F"/>
     <rect class="k1" x="46" y="59" width="8" height="17" fill="#C9932F" opacity="0"/>
   </g>
-  <text class="out o1" x="28" y="96" textLength="360" lengthAdjust="spacing">python backend engineer · abuja, nigeria</text>
+  <text class="out o1" x="28" y="96" textLength="405" lengthAdjust="spacing">python backend engineer · building since 2018</text>
 
   <!-- $ ls shipped/ -->
   <text class="prompt p2" x="28" y="130">$</text>

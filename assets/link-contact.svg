@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="32" viewBox="0 0 87 32" role="img" aria-label="contact">
+  <title>contact</title>
+  <rect x=".5" y=".5" width="86" height="31" rx="8" fill="#C9932F" stroke="#C9932F"/>
+  <g font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace' font-size="13">
+    <text x="12" y="20.5" fill="#5a4213">/</text>
+    <text x="19.8" y="20.5" fill="#16130F" textLength="54.6" lengthAdjust="spacing">contact</text>
+  </g>
+</svg>
